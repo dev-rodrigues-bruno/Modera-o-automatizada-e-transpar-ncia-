@@ -1,9 +1,12 @@
 ## 3. Estrutura exigida para o documento
 
 ### Abertura
-* Título claro e específico. Nada de "Trabalho de Design Profissional".
-* Nomes completos dos integrantes, em ordem alfabética, com o usuário do
-  GitHub, área de carreira e RGM de cada um.
+* Revolução automatizada.
+* Bruno Rodrigues | dev-rodrigues-bruno | Analista de Dados | Engenheiro de IA
+* Caio Dal Pizzol Fonseca | caio-fonseca | Engenharia de Software | 47923121
+* Denner de Paula Coutinho | denner-coutinho | Analista de Qualidade | 48094030
+* João Vitor Pires Ribeiro |
+* Nicollas Guedes Da Silva Santos | Nicollas-Guedes | Analista de Dados | 48131334
 * Dossiê escolhido, com o eventual recorte adotado.
 
 ### 3.1 Análise do problema
