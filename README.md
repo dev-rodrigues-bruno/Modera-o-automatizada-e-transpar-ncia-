@@ -1,1 +1,1 @@
-# Modera-o-automatizada-e-transpar-ncia-
+# Modera-o-automatizada-e-transparencia
