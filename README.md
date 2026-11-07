@@ -4,8 +4,8 @@
 * Revolução automatizada.
 * Bruno Rodrigues | dev-rodrigues-bruno | Analista de Dados | Engenheiro de IA
 * Caio Dal Pizzol Fonseca | caio-fonseca | Engenharia de Software | 47923121
-* Denner de Paula Coutinho | denner-coutinho | Analista de Qualidade | 48094030
-* João Vitor Pires Ribeiro |
+* Denner de Paula Coutinho | denner-coutinho | Analista de Dados | 48094030
+* João Vitor Pires Ribeiro | Joaovp07 | Engenheiro de Software | 47792591 
 * Nicollas Guedes Da Silva Santos | Nicollas-Guedes | Analista de Dados | 48131334
 * Dossiê escolhido, com o eventual recorte adotado.
 
