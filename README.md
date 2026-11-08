@@ -1,6 +1,6 @@
 ## 3. Estrutura exigida para o documento
 
-### Entre a escala e a prestação de contas: moderação automatizada e transparência nas plataformas digitais (Dossiê 5)
+### Moderação automatizada e transparência: entre o controle do discurso e o direito de saber (Dossiê 5)
 
 * Bruno Rodrigues | dev-rodrigues-bruno | Analista de Dados | 48101541
 * Caio Dal Pizzol Fonseca | caio-fonseca | Engenharia de Software | 47923121
