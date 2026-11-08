@@ -130,12 +130,67 @@ forem necessárias.
 ## 1. Análise do problema
 
 ### 1.1 Quem é afetado, onde e quanto
-[Dados, com a fonte citada]
+
+A moderação automatizada de conteúdo impacta diretamente bilhões de usuários
+de plataformas digitais globalmente e no Brasil, com efeitos desproporcionais
+sobre criadores de conteúdo, ativistas, minorias representativas e pequenos
+empreendedores.
+
+- **Volume de conteúdo afetado:** estima-se que as principais plataformas de
+  redes sociais removam proativamente mais de 100 milhões de conteúdos por
+  trimestre por meio de filtros automatizados. Contudo, relatórios de
+  transparência decorrentes do *Digital Services Act* (DSA) revelam que
+  centenas de milhares de decisões de moderação por IA envolvem falsos
+  positivos diariamente.
+- **Impacto no Brasil:** pesquisas do *InternetLab* e do *CGI.br / NIC.br*
+  apontam que usuários no Brasil enfrentam retenção indevida de contas e
+  restrição silenciosa de alcance (*shadowbanning*) sem notificação detalhada.
+  A supermoderação atinge desproporcionalmente o contradiscurso, a sátira e
+  dialetos regionais.
+- **Danos econômicos e liberdade de expressão:** empreendedores dependentes
+  de comércio social perdem receitas imediatas ao sofrerem bloqueios de conta
+  não fundamentados, enquanto o devido processo digital é cerceado pela
+  ausência de canais de apelação eficientes.
 
 ### 1.2 Causas
-[Destaque para as causas tecnológicas: sistemas, dados, redes, decisões de projeto]
+
+As falhas de moderação automatizada decorrem de fatores estruturais e,
+prioritariamente, de escolhas e limitações arquiteturais de tecnologia:
+
+1. **Efeito caixa-preta (*black box*) dos modelos:** o uso de redes profundas
+   (NLP/LLMs) impede a rastreabilidade da decisão. O sistema classifica uma
+   publicação como "violação de diretrizes", mas não fornece o motivo lógico
+   ou o trecho exato.
+2. **Vieses de treinamento e incompetência contextual:** algoritmos são
+   treinados com conjuntos de dados (*datasets*) predominantemente anglófonos
+   ou centralizados, incapazes de discernir ironia, linguagem figurada, gírias
+   locais e ressignificação de termos.
+3. **Limitações de correspondência de hash:** filtros de assinaturas digitais
+   (*hashes* exatas ou perceptuais) falham diante de conteúdos inéditos ou
+   ligeiramente modificados e não avaliam o contexto em que a mídia foi
+   compartilhada (por exemplo, denúncia de um crime versus apologia ao crime).
+4. **Pipeline de apelação automatizado:** para reduzir custos operacionais,
+   algumas plataformas utilizam os mesmos algoritmos classificadores para
+   julgar os recursos dos usuários, eliminando a revisão humana qualificada.
 
 ### 1.3 O que já existe e por que não basta
+
+- **Filtros de heurística e classificadores nativos:** plataformas utilizam
+  algoritmos próprios baseados em inteligência artificial generativa e
+  aprendizado de máquina para triagem em tempo real. **Por que não basta:**
+  operam sob segredo industrial, sem transparência algorítmica, auditoria
+  externa ou explicabilidade ao usuário afetado.
+- **Portais legados de denúncia:** sistemas de notificação e retirada
+  (*notice and take-down*) dependentes de denúncias de usuários.
+  **Por que não basta:** sofrem com coordenação de ataques (*brigading*), falta
+  de feedback transparente sobre a decisão final e demora no processamento
+  manual de apelações.
+- **Estruturas de autorregulação das plataformas:** conselhos de segurança e
+  relatórios voluntários de transparência. **Por que não basta:** apresentam
+  métricas agregadas que escondem taxas reais de erro e falsos positivos, além
+  de carecerem de conformidade com normas de devido processo digital, como o
+  DSA europeu e as exigências em debate no PL 2630/2020 e no artigo 19 do
+  Marco Civil da Internet no Brasil.
 
 ## 2. Proposta tecnológica
 
@@ -210,8 +265,50 @@ flowchart LR
 ## 5. Sustentabilidade
 
 ### 5.1 Impacto ambiental da solução
+
+O processamento de inteligência artificial para moderação em larga escala
+impõe uma expressiva pegada ecológica que demanda estratégias de *Green AI*:
+
+- **Consumo energético de data centers:** a inferência contínua em tempo real
+  usando modelos de grande porte (LLMs) gera consumo elétrico intensivo e
+  altas emissões de CO₂ em infraestruturas de nuvem.
+- **Pegada hídrica e descarte de hardware (*e-waste*):** o resfriamento de
+  servidores de GPU/TPU consome recursos hídricos significativos, enquanto a
+  rápida substituição de hardware de aceleração acelera o acúmulo de lixo
+  eletrônico.
+- **Escolhas tecnológicas de TI verde para mitigação:**
+  - **Arquitetura de filtragem em camadas:** uso de algoritmos de baixo custo
+    energético (*hashing* e regras heurísticas) na primeira etapa de triagem,
+    acionando modelos complexos de NLP/LLM apenas para conteúdos limítrofes.
+  - **Destilação de modelos (*model distillation*):** emprego de modelos
+    compactos (*Small Language Models* — SLMs) otimizados para inferência
+    local, com redução estimada de até 90% no consumo energético por
+    requisição.
+  - **Provedores com energia renovável:** hospedagem em data centers com
+    certificação PUE otimizada e alimentados por fontes 100% renováveis.
+
 ### 5.2 Sustentabilidade do projeto
-[Quem mantém, quem paga, o que acontece depois do primeiro ano]
+
+A perenidade da solução envolve sustentabilidade operacional, financeira e
+humana:
+
+- **Quem mantém:** equipe técnica multidisciplinar composta por Engenheiros
+  de Dados (manutenção do pipeline e dos datasets), Especialistas em
+  Cibersegurança/Privacidade (conformidade com a LGPD e auditoria de APIs) e
+  moderadores humanos de apoio para casos de apelação.
+- **Sustentabilidade humana e social:** estabelecimento de jornadas de
+  trabalho controladas, rotação de tarefas e suporte contínuo de saúde mental
+  para revisores humanos terceirizados, evitando a superexposição a conteúdos
+  nocivos e garantindo o trabalho digno na cadeia de suprimentos de IA.
+- **Modelo financeiro:** custeio viabilizado por taxa de governança de
+  conformidade cobrada de plataformas integradas, fundos institucionais de
+  fomento à transparência algorítmica ou parcerias público-privadas de
+  interesse social.
+- **Após o primeiro ano:** transição para um modelo de governança aberta e
+  multissetorial (*open source*, com API de auditoria para pesquisadores
+  acadêmicos do *Data Privacy Brasil*, *InternetLab* e *ITS Rio*), garantindo
+  atualizações contínuas de segurança e reavaliação periódica dos modelos de
+  viés.
 
 ## 6. Impacto esperado
 
