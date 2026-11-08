@@ -2,7 +2,7 @@
 
 ### Entre a escala e a prestação de contas: moderação automatizada e transparência nas plataformas digitais (Dossiê 5)
 
-* Bruno Rodrigues | dev-rodrigues-bruno | Analista de Dados [RGM: ]
+* Bruno Rodrigues | dev-rodrigues-bruno | Analista de Dados | 48101541
 * Caio Dal Pizzol Fonseca | caio-fonseca | Engenharia de Software | 47923121
 * Denner de Paula Coutinho | denner-coutinho | Analista de Dados | 48094030
 * João Vitor Pires Ribeiro | Joaovp07 | Engenheiro de Software | 47792591 
