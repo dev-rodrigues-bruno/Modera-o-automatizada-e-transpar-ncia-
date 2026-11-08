@@ -1,13 +1,18 @@
 ## 3. Estrutura exigida para o documento
 
-### Abertura
-* Revolução automatizada.
-* Bruno Rodrigues | dev-rodrigues-bruno | Analista de Dados | Engenheiro de IA
+### Entre a escala e a prestação de contas: moderação automatizada e transparência nas plataformas digitais (Dociê 5)
+
+* Bruno Rodrigues | dev-rodrigues-bruno | Analista de Dados [RGM: ]
 * Caio Dal Pizzol Fonseca | caio-fonseca | Engenharia de Software | 47923121
 * Denner de Paula Coutinho | denner-coutinho | Analista de Dados | 48094030
 * João Vitor Pires Ribeiro | Joaovp07 | Engenheiro de Software | 47792591 
 * Nicollas Guedes Da Silva Santos | Nicollas-Guedes | Analista de Dados | 48131334
-* Dossiê escolhido, com o eventual recorte adotado.
+
+### Abertura
+
+Todos os dias, bilhões de publicações circulam pelas plataformas digitais — e uma fração enorme delas é removida, rebaixada ou sinalizada sem que nenhum ser humano as tenha visto. A moderação de conteúdo deixou de ser uma tarefa manual para se tornar, em grande medida, uma operação automatizada, conduzida por algoritmos capazes de analisar textos, imagens e vídeos em escala e velocidade impossíveis para equipes humanas. Essa automação resolve um problema real: sem ela, as plataformas seriam inviáveis diante do volume de informação produzido. Mas ela também cria um problema novo e delicado — o de decisões que afetam diretamente a liberdade de expressão, o acesso à informação e a reputação das pessoas sendo tomadas por sistemas cujo funcionamento é, na prática, opaco para quem está sujeito a eles.
+
+É nesse ponto que a transparência se torna central. Saber como, por que e com base em quais critérios um conteúdo é moderado não é apenas uma curiosidade técnica: é condição para que usuários possam contestar decisões, para que a sociedade possa fiscalizar o poder das plataformas e para que se construa confiança nesses espaços. Este trabalho busca compreender a tensão entre a eficiência da moderação automatizada e a exigência de transparência, discutindo seus desafios, seus limites e os caminhos possíveis para conciliá-las.
 
 ### 3.1 Análise do problema
 * Quem é afetado, onde e quanto, **com dados e fontes**.
